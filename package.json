@@ -4,7 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/irenewuu/Midterm-Components/issues"
   },
-  "homepage": "https://github.com/irenewuu/Midterm-Components#readme"
+  "homepage": "https://github.com/irenewuu/Midterm-Components#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@storybook/addon-actions": "^6.1.20",
+    "@storybook/addon-essentials": "^6.1.20",
+    "@storybook/addon-links": "^6.1.20",
+    "@storybook/html": "^6.1.20",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {}
 }
