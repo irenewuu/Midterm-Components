@@ -20,6 +20,7 @@ function ButtonUI(mbottom="8%", mright="8%", text="20L", function1='ButtonUI.Han
 ButtonUI.HandleClickWrong1 = (el) => {
   $("#correctAns1").hide()
   $("#wrongAns1").show()
+  
   let li = document.querySelector("#water_options").children
   for(let i=0; i<li.length; i++) {
     li[i].style.backgroundColor = "#fff"
